@@ -5,5 +5,6 @@ int main() {
    cin >> a >> b ;
    if (a == 1 ) { cout << "Bus " << endl; }
    else if ( a == 0 && b == 1 ) { cout << " Walk " << endl; }
+   else if ( a == 0 && b == 0 ) { cout << "Bike " << endl; }
    return 0;
 }
